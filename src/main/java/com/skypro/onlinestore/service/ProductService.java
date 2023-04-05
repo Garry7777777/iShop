@@ -47,7 +47,8 @@ public class ProductService {
         List<Product> products = productRepository
                 .findAll(Specification.byName(name)
                 .and(Specification.byDescription(description))
-                .and(Specification.byCategory(categoryName)));
+                .and(Specification.byCategory(categoryName))
+                .and(Specification.fetchCategories()) );
         return products.stream().map(ProductDTO::toDTO).collect(Collectors.toList());
     }
 }

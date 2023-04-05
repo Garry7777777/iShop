@@ -21,6 +21,7 @@ public class CategoryControllerTest {
         mockMvc.perform(get("/category"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$").isArray())
+                .andExpect(jsonPath("$.size()").value(3))
                 .andExpect(jsonPath("$[0].name").value("test1"));
     }
 }
