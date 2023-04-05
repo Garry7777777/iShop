@@ -7,3 +7,6 @@ databaseChangeLog:
 
   - include:
       file: liquibase/scripts/product_categories.sql
+
+  - include:
+      file: liquibase/scripts/fill_categories.sql

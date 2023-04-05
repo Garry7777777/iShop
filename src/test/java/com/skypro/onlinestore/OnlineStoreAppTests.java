@@ -1,10 +1,10 @@
-package com.example.onlinestoreproject;
+package com.skypro.onlinestore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OnlineStoreProjectApplicationTests {
+class OnlineStoreAppTests {
 
     @Test
     void contextLoads() {

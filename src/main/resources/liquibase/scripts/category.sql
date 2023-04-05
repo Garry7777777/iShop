@@ -1,7 +1,7 @@
 -- liquibase formatted sql
 
 
--- changeset jalig:2
+-- changeset garry:2
 create table category
 (
     id   BIGSERIAL NOT NULL PRIMARY KEY,

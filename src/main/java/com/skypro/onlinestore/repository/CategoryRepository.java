@@ -1,6 +1,6 @@
-package com.example.onlinestoreproject.repository;
+package com.skypro.onlinestore.repository;
 
-import com.example.onlinestoreproject.model.Category;
+import com.skypro.onlinestore.model.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CategoryRepository extends JpaRepository<Category,Long> {

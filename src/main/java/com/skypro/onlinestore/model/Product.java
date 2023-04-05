@@ -1,8 +1,6 @@
-package com.example.onlinestoreproject.model;
+package com.skypro.onlinestore.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
+import lombok.*;
 import javax.persistence.*;
 import java.time.Instant;
 import java.util.Set;

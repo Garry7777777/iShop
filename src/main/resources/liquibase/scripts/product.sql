@@ -1,13 +1,13 @@
 -- liquibase formatted sql
 
 
--- changeset jalig:1
+-- changeset garry:1
 create table product
 (
     id                BIGSERIAL NOT NULL PRIMARY KEY,
-    creation_date     TIMESTAMP,
     description       VARCHAR(255),
-    modification_date TIMESTAMP,
+    creation_date     TIMESTAMP NOT NULL,
+    modification_date TIMESTAMP NOT NULL,
     name              VARCHAR(255)
 );
 
